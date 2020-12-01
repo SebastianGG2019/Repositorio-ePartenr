@@ -1,0 +1,187 @@
+<!-- 
+ *
+ * Desenvolvido por Integrando.se
+ * hello@integrando.se
+ * 
+ * Bootstrap v.3
+ *
+ -->
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common" xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce" lang="en-us">
+
+<head>
+    <title> <h1><vtex.cmc:searchTitle /></h1></title>
+    <vtex:metaTags/>
+    <vtex:contentPlaceHolder id="keywords" />
+    <link href="/files/vtex-smartResearch.css" rel="stylesheet" type="text/css" />
+    <link href="/arquivos/ion.rangeSlider.css" rel="stylesheet" type="text/css" />
+    <link href="/arquivos/ion.rangeSlider.skinHTML5.css" rel="stylesheet" type="text/css" />
+    <link href="/arquivos/categoria.css" rel="stylesheet" type="text/css" />
+    <script src="/arquivos/ion.rangeSlider.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/files/infinityScroll.css" />
+    <vtex:contentPlaceHolder id="estilo" />
+    <style>
+        .new-header {
+       height: 121px;
+}
+div#returnToTop {
+    display: none !important;
+}
+ul.hombre {
+    display: none;
+}
+ul.mujer {
+    display: none;
+}
+.header.new-header.fixed {
+    z-index: 10001;
+    width: 100%;
+    display:none;
+}
+div#box-bread-brumb {
+    display: none;
+}
+.header.new-header {
+    min-height: 120px;
+}
+
+    </style>
+    <link rel="stylesheet" type="text/css" href="/arquivos/vtex-smartResearch.css" />
+
+    <vtex:template id="commonStyles" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+</head>
+
+<body id="category-page">
+
+    <div class="page">
+        <div class="BotoomF">
+            <div class="contenedorB">
+                <div class="EntradaC"><a href="/fragancias"><img src="/arquivos/petaña.png" /></a></div>
+                <div Class="SaidaC"><a href="/fragancias"><img src="/arquivos/bottomCateoria.png"/></a></div>
+            </div>
+            
+        </div>
+        <!--  SubTemplate: Header -->
+<!--        <div class="adicional"><p><a class="whatsappT" href="https://wa.me/573143885906"><span class="one">(314) 388 5906</span></a><span class="two">(305) 734 1467</span></p><p class="envio"><span style="opacity:0">TIENES ENVÍO GRATIS POR MES DE LANZAMIENTO</span></p></div>-->
+        <div class="adicional"><p><span class="two">(4) 265 31 11 ext: 4297 - 4300</span></p><p class="envio"><span style="opacity:0">ENVÍO GRATIS POR COMPRAS SUPERIORES A $400.000</span></p></div>
+        <vtex:template id="new-header" />
+        <!-- /SubTemplate: Header -->
+        <h1><vtex:contentPlaceHolder id="h1" /></h1>   
+            <div id="category-banner">
+                        <!--  placeholder -->
+                        <vtex:contentPlaceHolder id="Banner-Principal" />
+                        <!-- /placeholder -->
+            </div><!-- #departament-banner -->
+        <div id="category-extra-top"></div>
+                <div class="gray">
+                    <section id="content" class="container">
+                    <div class="title-category">
+                        <!--  Controle: Titulo -->
+                        <h1><vtex.cmc:searchTitle /></h1>
+                        <!-- /Controle: Titulo -->
+                    </div><!-- .title-category -->
+                            
+
+                    <div class="arreglar">
+                    <div class="middleM">
+                    <div id="departament-navegador">
+                    	<!--  Controle: navegador de departamento -->
+                        <vtex.cmc:searchNavigator />
+            			<!-- /Controle: navegador de departamento -->
+                    
+                        <div id="category-extra-filtro"></div>
+                    </div><!-- #departament-navegador -->  
+                   
+                    <div class="ordenarpor">
+                    
+                    <div class="bottomO">Clasificar por</div>
+                    
+                    
+               
+            </div>
+            
+            </div>
+           
+            <div class="lvl-B" style="display:none">
+                    <ul>
+                        <li><a href="?O=OrderByPriceASC">Menor Precio</a></li>
+                        <li><a href="?O=OrderByPriceDESC">Mayor Precio</a></li>
+                        <li><a href="?O=OrderByTopSaleDESC">Más vendidos</a></li>
+                        <li><a href="?O=OrderByNameASC">A - Z</a></li>
+                        <li><a href="?O=OrderByNameDESC">Z - A</a></li>
+                        <li><a href="?O=OrderByReleaseDateDESC">Fecha de lanzamiento</a></li>
+                        <li><a href="?O=OrderByBestDiscountDESC">Mejor Descuento</a></li>
+                    </ul>
+                    </div>
+                    </div>
+             </section>
+                </div> 
+            
+            
+        <section id="content" class="container">
+        <div class="ordenarporC desktopP">
+                    <div class="bottomOC desktopJ">Clasificar por</div>
+            </div>
+            <div class="lvl-C desktopB" style="display:none">
+                    <ul>
+                        <li><a href="?O=OrderByPriceASC">Menor Precio</a></li>
+                        <li><a href="?O=OrderByPriceDESC">Mayor Precio</a></li>
+                        <li><a href="?O=OrderByTopSaleDESC">Más vendidos</a></li>
+                        <li><a href="?O=OrderByNameASC">A - Z</a></li>
+                        <li><a href="?O=OrderByNameDESC">Z - A</a></li>
+                        <li><a href="?O=OrderByReleaseDateDESC">Fecha de lanzamiento</a></li>
+                        <li><a href="?O=OrderByBestDiscountDESC">Mejor Descuento</a></li>
+                    </ul>
+                    </div>
+
+            <div id="box-bread-brumb">
+                <vtex.cmc:breadCrumb />
+            </div>
+                    
+            <div id="category-extra-middle"></div>
+                           
+
+            <div class="row">
+
+                
+       
+                <article id="main-content" class="col-xs-12 col-md-12">
+                                       
+                     
+        	
+                        
+                    <div id="collections">
+                        <div class="showcase-default category">
+                            <!--  Controle: Resultado da busca / Lista de produtos -->
+                            <vtex.cmc:searchResult layout="19ccd66b-b568-43cb-a106-b52f9796f5cd" itemCount="16"  columnCount="4" />
+                            <!--  /Controle: Resultado da busca / Lista de produtos -->
+                        </div><!-- .collection-wrap -->
+                    </div><!-- #collections -->
+                
+                </article><!-- #main-content -->
+
+            </div><!-- .row -->
+        
+        </section><!-- #content -->
+                    
+        <div id="category-extra-bottom"></div>
+
+        <!--  SubTemplate: Footer -->
+        <vtex:template id="Footer" />
+        <!-- /SubTemplate: Footer -->
+    
+    </div><!-- .container-fluid -->
+
+</body>
+    <vtex:template id="commonScripts" />
+     <vtex:contentPlaceHolder id="scripts" />
+    <script type="text/javascript" src="/files/vtex-smartResearch.min.js"></script>
+    <script src="/files/js-genericos-3.js"></script>
+    <script type="text/javascript" src="/files/QD_infinityScroll.min.js"></script>
+    <script type="text/javascript" src="/files/category.js"></script>
+    <!--<script src="/files/jquery-latest.min.js"></script>-->
+    
+</html>

@@ -1,0 +1,360 @@
+<!-- 
+ *
+ * Desenvolvido por Integrando.se
+ * hello@integrando.se
+ * 
+ * Bootstrap v.3
+ *
+ -->
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common" xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce" lang="en-us">
+
+<head>
+    <title><h1><vtex.cmc:searchTitle /></h1></title>
+    <vtex:metaTags/>
+    <link rel="stylesheet" href="/files/products.css" />
+    <link rel="stylesheet" href="/files//owl.theme.default.min.css" />
+    <vtex:template id="commonStylesP" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+</head>
+
+<body id="product-page">
+
+    <div class="page">
+<!--        <div class="adicional"><p><a class="whatsappT" href="https://wa.me/573143885906"><span class="one">(314) 388 5906</span></a><span class="two">(305) 734 1467</span></p><p class="envio"><span style="opacity:0">TIENES ENVÍO GRATIS POR MES DE LANZAMIENTO</span></p></div>-->
+        <div class="adicional"><p><span class="two">(4) 265 31 11 ext: 4297 - 4300</span></p><p class="envio"><span style="opacity:0">ENVÍO GRATIS POR COMPRAS SUPERIORES A $400.000</span></p></div>
+        <!--  SubTemplate: Header -->
+        <vtex:template id="new-header" />
+        <!-- /SubTemplate: Header -->
+                    
+        <div id="product-extra-top"></div>  
+
+        <section id="product-content" class="container">
+
+            <div id="box-bread-brumb" class="hidden-xs">
+                <vtex.cmc:breadCrumb />
+            </div>
+                    
+          <div id="product-extra-middle"></div>  
+
+          <div class="row product-details">
+
+            <div class="product-image col-xs-12 col-sm-12 col-md-8 col-lg-8 text-center">
+          <!--  Component: Product Images -->
+          <vtex.cmc:ProductImage zoom="off"/>
+            </div><!-- .product-image -->
+
+            <div class="product-info col-xs-12 col-sm-12 col-md-4 col-lg-4">
+
+              <div class="product-name">
+                <div id="brand"><vtex.cmc:brandName/></div>
+                <h1>
+                  <vtex.cmc:productName />
+                </h1>
+              </div>
+
+              <div class="row">
+                <div class="codigo-produto col-xs-12 col-lg-12">
+                    <span> Referencia: </span> 
+                    <span> <vtex.cmc:productReference/>	 </span>
+                </div>
+                <div class="codigo-produto col-xs-12 col-lg-12">
+                    <h4><vtex.cmc:productDescriptionShort /></h4>
+                </div>
+              </div>
+
+              <div class="price-box">
+                <!--  Component: Sellers -->
+            <vtex.cmc:SellerOptions />
+        
+            <!--  Component: Price -->
+            <vtex.cmc:skuPrice />
+            
+            <div class="product-color">
+                  <div class="vitrina">
+                    <vtex:contentPlaceHolder id="Color" />
+                  </div><!-- .showcase-default -->
+                </div>
+          
+            <!--  Component: Sales channels -->
+            <vtex.cmc:SalesChannelDropList />
+          
+            <!--  Component: Addicional services -->
+            <vtex.cmc:stockKeepingUnitService />
+            
+            <!--  Component: Payment methods -->
+            <!-- <vtex.cmc:OtherPaymentMethod/> -->
+              </div><!-- .price-box -->
+
+              <div class="seletor-sku">
+            <vtex.cmc:stockKeepingUnitSelection />
+          </div><!-- .seletor-sku -->
+            
+          <div class="guiaT"><a target="_blank" href="/institucional/tallas">Guía de tallas</a><br/></div>
+                  
+          <div class="buy-button-box col-xs-10 col-lg-10 col-sm-10">
+            <vtex.cmc:BuyButton />
+          </div><!-- .buy-button-box -->
+          <div class="favorite-button-box col-xs-2 col-lg-2 col-sm-2">
+            <vtex.cmc:GiftListInsertSkuV2 />;
+        </div><!-- .buy-button-box -->
+          
+          <div class="product-description-box col-lg-12 col-xs-12 col-sm-12">
+              <div id="description">
+            <!--  Component: Description -->
+            <p><vtex.cmc:ProductDescription /></p>
+            <p>Importado por Estudio de Moda SAS. NIT: 890926803.</p>
+          </div><!-- .description -->
+        </div>
+
+        <div class="product-description-box">
+              <div id="specification">
+            <!--  Component: Specification -->
+            <vtex.cmc:productSpecification />
+          </div><!-- .description -->
+        </div>
+         <div class="product-information-block expand-block care-instructions expand-open modelo">
+                  <div class="expand-block-head text-strong">Talla y corte</div>
+                   <div class="expand-block-body" style="display:block">
+                    <div class="care-instruction">
+                    <a target="_blank" href="/institucional/mujer-talla">Guía de tallas</a><br/>
+                    <span></span>
+                    </div>
+                   </div>
+                  </div><br/>
+        <div class="product-information-block expand-block care-instructions expand-open">
+                    <div class="expand-block-head text-strong">Instrucciones de cuidado</div>
+                    <div class="expand-block-body" style="display:block">
+                    <div class="care-instruction">
+                    <img src="https://es.diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw88c31724/care/12.svg" alt="" title=""/>
+                    <span>Lavar a máquina a 30 °C</span>
+                    </div>
+                    <div class="care-instruction">
+                    <img src="https://es.diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw50c12110/care/17.svg" alt="" title=""/>
+                    <span>No blanquear</span>
+                    </div>
+                    <div class="care-instruction">
+                    <img src="https://es.diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw9ecb6da9/care/28.svg" alt="" title=""/>
+                    <span>No secar en secadora</span>
+                    </div>
+                    <div class="care-instruction">
+                    <img src="https://es.diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw3aed5e71/care/31.svg" alt="" title=""/>
+                    <span>Planchar a 110 °C max</span>
+                    </div>
+                    <div class="care-instruction">
+                    <img src="https://es.diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw664602fb/care/37.svg" alt="" title=""/>
+                    <span>No lavar en seco</span>
+                    </div>
+                    <div class="care-instruction">
+                    <img src="https://es.diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dwd45dbe75/care/24.svg" alt="" title=""/>
+                    <span>Secar colgada a la sombra</span>
+                    </div>
+                    </div>
+                    </div><br/>
+              <!--<div class="product-information-block expand-block care-instructions expand-open">
+                  <div class="expand-block-head text-strong">ENVÍO GRATIS A TODO COLOMBIA </div>
+                   <div class="expand-block-body" style="display:block">
+                    <div class="care-instruction">
+                    
+                    <span>Todos los pedidos tendrán envío gratis hasta el 31 de mayo de 2020. Recibe tu compra en un plazo de 5 a 15 días hábiles aproximadamente.</span>
+                    </div>
+                   </div>
+                  </div><br/>-->
+                <div class="product-information-block expand-block care-instructions expand-open">
+                  <div class="expand-block-head text-strong">Devoluciones:</div>
+                   <div class="expand-block-body" style="display:block">
+                    <div class="care-instruction">
+                    
+                    <span>¿No te encanta? Por la contingencia del COVID-19 podrás hacer la devolución, cambio o garantía a partir del 1 de mayo de 2020. Recuerda que debes devolver el producto en las mismas condiciones en que lo recibiste.</span>
+                    </div>
+                   </div>
+                  </div>
+
+            </div><!-- .product-info -->
+
+          </div><!-- .product-details -->
+              
+        
+          <div class="product-description">
+        
+            <div id="product-extra-description-1"></div>  
+
+        <div class="product-description-box">
+          <!--  Component: Cross selling -->
+          <vtex.cmc:BuyTogether/>
+        </div>
+
+        <div id="product-extra-description-2"></div>  
+
+        
+
+        <div id="product-extra-description-3"></div>  
+
+        <h3 class="titleGp">Más vendidos</h3>
+        <div class="vitrina inferior">
+          <div class="showcase-default showcase-owl">
+            <vtex:contentPlaceHolder id="Quién vio también compró" />
+          </div><!-- .showcase-default -->
+        </div>
+        <h3 class="titleGp">Más vistos</h3>
+        <div class="vitrina inferior">
+          <div class="showcase-default showcase-owl">
+            <vtex:contentPlaceHolder id="mas vistos" />
+          </div><!-- .showcase-default -->
+        </div>
+        <h3 class="titleGp">Quien vío también compró</h3>
+        <div class="vitrina inferior">
+          <div class="showcase-default showcase-owl">
+            <vtex:contentPlaceHolder id="compro" />
+          </div><!-- .showcase-default -->
+        </div>
+
+      </div><!-- .product-description -->
+
+    </section>
+                    
+        <div id="product-extra-bottom"></div>  
+    
+    <!--  SubTemplate: Footer -->
+        <vtex:template id="Footer" />
+        <!-- /SubTemplate: Footer -->
+
+        <div id="comprar-flutuante" style="display: none;">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-1 visible-lg visible-md">
+                <img src="/arquivos/sem-foto.gif" alt="" id="foto-comprar-flutuante" class="img-responsive" />
+              </div>
+              <div class="col-nome col-xs-3 hidden-xs">
+              <vtex.cmc:productName/>
+              </div>
+              <div class="col-precos col-xs-4 col-lg-5 hidden-xs">
+                <vtex.cmc:skuPrice/>
+              </div>
+              <div class="col-comprar col-xs-12 col-sm-5 col-md-4 col-lg-3">
+            <div class="buy-button-box">
+              <vtex.cmc:BuyButton />
+              <vtex.cmc:giftListInsertSku/>
+            </div><!-- .buy-button-box -->
+              </div>
+            </div>
+          </div>
+        </div>
+    
+    </div><!-- .container-fluid -->
+
+<div class="content-slot Chat">
+  <vtex:contentPlaceHolder id="VIDEO" />
+</div>
+
+</body>
+
+<!--<script src="/files/product.js"></script>-->
+<script src="/files/js-genericos-3.js"></script>
+    <vtex:template id="commonScriptsP" />
+<script src="/files/owl.carousel.min.js"></script>
+
+    <script type="text/javascript">
+        $('ul.thumbs li a').each(function(){
+    var imgZoom = $(this).attr('zoom')
+    $(this).attr('href',imgZoom)
+
+})
+$('ul.thumbs li a').click(function(e){
+e.preventDefault();
+  
+$('ul.thumbs li').toggleClass('hideImgs')  
+$(this).parent().toggleClass('hideImgs').toggleClass('activeImg')
+if($(this).parent().is( ".activeImg" )){
+ 
+    var imglink = $(this).find('img').attr('src')
+    
+    var newIgm = imglink.replace('-498-664','-1100-1100')
+    
+    $(this).find('img').attr('src',newIgm)
+}else{
+
+    var imglink = $(this).find('img').attr('src')
+    
+    var newIgm = imglink.replace('-1100-1100','-498-664')
+    
+    $(this).find('img').attr('src',newIgm)
+}
+  
+
+});
+$('#menuMobile').click(function(){
+		$(this).toggle();
+		$('#closeMenu').toggle();
+		$('.lvl-1').removeClass('lvl-1').addClass('lvl-1-fix');
+	});
+	// end open menu mobile
+
+	//close menu mobile
+	$('#closeMenu').click(function(){
+		$('#menuMobile').toggle();
+		$(this).toggle();
+		$('.lvl-1').removeClass('lvl-1-fix').addClass('lvl-1');
+		$('.lvl-1-fix').removeClass('lvl-1-fix').addClass('lvl-1');
+		$('#hombre2').removeClass('lvl-2-fix').addClass('lvl-2');
+		$('#mujer2').removeClass('lvl-2-fix').addClass('lvl-2');
+		$('#nino2').removeClass('lvl-2-fix').addClass('lvl-2');
+		$('#living2').removeClass('lvl-2-fix').addClass('lvl-2');
+	});
+	// end close menu mobile
+
+
+	//back lvl-1
+	$('.izquierda').click(function(){
+		$('.lvl-1').removeClass('lvl-1').addClass('lvl-1-fix');
+		$(this).parent().parent().parent().removeClass('lvl-2-fix').addClass('lvl-2');
+	});
+	//end back lvl-1
+
+	//back lvl-2
+	$('.izquierda-2').click(function(){
+		$(this).parent().parent().parent().removeClass('lvl-3-fix').addClass('lvl-3');
+		$(this).parent().parent().parent().parent().parent().parent().removeClass('lvl-2').addClass('lvl-2-fix');
+	});
+	//end back lvl-2
+
+	//lvl-1 to lvl-2
+	$('#hombre').click(function(){
+		$('.lvl-1-fix').removeClass('lvl-1-fix').addClass('lvl-1');
+		$('#hombre2').removeClass('lvl-2').addClass('lvl-2-fix');
+	});
+
+	$('#mujer').click(function(){
+		$('.lvl-1-fix').removeClass('lvl-1-fix').addClass('lvl-1');
+		$('#mujer2').removeClass('lvl-2').addClass('lvl-2-fix');
+	});
+
+	$('#nino').click(function(){
+		$('.lvl-1-fix').removeClass('lvl-1-fix').addClass('lvl-1');
+		$('#nino2').removeClass('lvl-2').addClass('lvl-2-fix');
+	});
+
+	$('#living').click(function(){
+		$('.lvl-1-fix').removeClass('lvl-1-fix').addClass('lvl-1');
+		$('#living2').removeClass('lvl-2').addClass('lvl-2-fix');
+	});
+	// end lvl-1 to lvl-2
+
+	//lvl-2 to lvl-3
+	$('.tree').click(function(){
+		$(this).next('div').removeClass('lvl-3').addClass('lvl-3-fix');
+	});
+	  $( "#closeMenu" ).click(function() {
+        $( ".velo" ).toggle("drop");
+        });
+		    $( "#menuMobile" ).click(function() {
+        $( ".velo" ).toggle("drop");
+        });
+
+</script>
+
+
+    
+</html>

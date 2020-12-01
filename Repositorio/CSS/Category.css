@@ -1,0 +1,33 @@
+/*Category*/
+.resultado-busca-filtro fieldset.filterBy {
+    display: none;
+}
+div .resultado-busca-filtro p.compare {
+    display: none;
+}
+.title-category {
+    text-align: center;
+    border: none;
+    text-transform:uppercase;
+}
+
+/*vitrinas*/
+span.compare {
+    display: none;
+}
+.wrapper-buy-button-asynchronous {
+    display: none;
+}
+span.installment {
+    display: none;
+}
+b.product-name {
+    text-align: left;
+}
+span.box-item.text-center {
+    margin-right: 30px;
+    margin-top: 18px;
+}
+.sub .none {
+    display: none;
+}
